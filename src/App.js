@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import ExploreRef from './component/ExploreRef/ExploreRef'
+import ReducerCount from './component/ReducerCount/ReducerCount'
+import PatientReducer from './component/PatientReducer/PatientReducer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ExploreRef></ExploreRef>
+      <ReducerCount></ReducerCount>
+      <PatientReducer></PatientReducer>
     </div>
   );
 }
